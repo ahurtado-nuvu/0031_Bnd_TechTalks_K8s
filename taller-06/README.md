@@ -23,7 +23,7 @@ kubectl get services
 minikube ip
 kubectl get node -o wide 
 
-http://192.168.49.2:30100
+http://192.168.49.2:30101
 
-goto `echo http://$(minikube ip):30100`
+goto `echo http://$(minikube ip):30101`
 
